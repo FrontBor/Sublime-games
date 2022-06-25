@@ -536,6 +536,87 @@ body{
         }
         h4{
             font-weight: 400;
+            font-style: italic;
         }
     }
+}
+
+.testimonials{
+    &__main{
+        background: #000;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    h3{ 
+        position: relative;
+        left: 82px;
+        font-size: 30px;
+        color: #fff;
+        padding: 50px 0 0 0;
+    }
+    h3:first-letter{
+        font-size: 50px;
+        line-height: 1.2;
+        font-weight: 600;
+        color: #ffc600;
+    }
+    h3:after{
+        content: '';
+        position: absolute;
+        bottom: 3px;
+        left: 90px;
+        width: 133px;
+        height: 1px;
+        background: rgb(169, 168, 168);
+        
+    }
+    span{
+        color: #fff;
+        font-size: 50px;
+        font-style: 700;
+    }
+    &__row{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__column{
+        flex: 1 2 70%;
+        color: #fff;
+    }
+    .col-1{
+        text-align: center;
+        padding: 70px 0 150px 100px;
+        p:first-child{
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: #ffffff;
+            font-style: italic;
+            padding: 0 0 30px 0;
+        }
+        
+    }
+    .col-2{
+        text-align: center;
+        margin: 30px 10px 150px 0;
+        img{
+            border: 3px solid #ffa800;
+            border-radius: 50%;
+        }
+        
+        h2{
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 600;
+            color: #fff;
+            margin: 10px 0 0 0;
+        }
+        h4{
+            font-weight: 400;
+            font-style: italic;
+        }
+
+    }
+
 }
