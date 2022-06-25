@@ -8,7 +8,7 @@ body{
 }
 
 .sablime{
-    background: url('/img/bgbodyheader.jpg') no-repeat;
+    background: url('/img/bg/bgbodyheader.jpg') no-repeat;
     background-size: cover;
     &__main{
         max-width: 1200px;
@@ -48,7 +48,7 @@ body{
         }
     }
     &__wecreate{
-        background: url('/img/bgheader.jpg')no-repeat;
+        background: url('/img/bg/bgheader.jpg')no-repeat;
         background-size: cover;
         h2{
             padding: 66px 0 47px 45px;
